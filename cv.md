@@ -17,7 +17,8 @@
 
 ### Code Example:
 
-```<style>
+```
+<style>
 @keyframes color-change {
   0% {
     color: black;
@@ -34,7 +35,9 @@
 }
 </style>
 
-<p class="black-white">Текст</p>```
+<p class="black-white">Текст</p>
+
+```
 
 ### Experience:
 
