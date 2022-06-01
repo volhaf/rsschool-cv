@@ -1,13 +1,13 @@
-#VOLHA FILANOVICH
+# VOLHA FILANOVICH
 
-###Contacts:
-*volha.f@outllok.com
-*discord: VolhaF
+### Contacts:
+* volha.f@outllok.com
+* discord: VolhaF
 
 
-###About Me:
-*I want and I am sure that I will become a Front-End Developer
-*Skills:
+### About Me:
+* I want and I am sure that I will become a Front-End Developer
+* Skills:
 - HTML
 - CSS
 - GIT
@@ -15,7 +15,7 @@
 - Illustrator
 
 
-###Code Example:
+### Code Example:
 
 ```<style>
 @keyframes color-change {
@@ -34,16 +34,16 @@
 }
 </style>
 
-<p class="black-white">Текст</p> ```
+<p class="black-white">Текст</p>```
 
-###Experience:
+### Experience:
 
 
-###Education:
-*Brest State A. Pushkin University
+### Education:
+* Brest State A. Pushkin University
 Jurisprudence (magistracy)
 
 
-###Language:
-*English level - A1
-*Polish level - B1
+### Language:
+* English level - A1
+* Polish level - B1
