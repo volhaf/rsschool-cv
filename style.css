@@ -22,6 +22,10 @@ header {
     display: flex;
     width: 780px;
 }
+.personal {
+    display: flex;
+    flex-direction: column;
+}
 .photo {
     width: 280px;
     height: 280px;
@@ -32,8 +36,27 @@ header {
 }
 .contacts {
     position: relative;
-    padding-top: 20px;
-    width: 500px;
+    /* padding-top: 20px; */
+    width: 557px;
+    margin-left: -57px;
+}
+.nav {
+    position: relative;
+    width: 557px;
+    margin-left: -57px;
+    padding-top: 30px;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    transition: .3s;
+    color: #5e2d16; 
+    list-style-type: none;
+    background-color:#c5847ad8;
+    padding-inline-start: 10px;
+  
 }
 .text-contacts {
     display: flex;
@@ -42,6 +65,8 @@ header {
     margin: 0;
     transition: .3s;
     color: #5e2d16;
+    list-style-type: none;
+
 }
 a:-webkit-any-link {
     color: -webkit-link;
@@ -66,7 +91,6 @@ h3 {
 main {
     display: flex;
     flex-direction: row;
-    /* margin-right: -30px; */
 }
 .left {
     display: flex;
@@ -92,11 +116,11 @@ main {
 }
 .link {
     text-decoration: none;
-    color: #566b59;
+    color: #609f69;
     transition: color 0.7s;
   }
   .link:hover {
-    color: #566b59;
+    color: #609f69;
   }
 code {
     color: #5e2d16;
