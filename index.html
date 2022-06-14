@@ -7,33 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSSchool CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap" rel="stylesheet">
+
 
 </head>
 
 <body>
     <header>
-        <section class="header1">
+        <div class="avatar">
             <div class="photo">
                 <img src="images/avatar.jpg" alt="avatar">
             </div>
-        </section>    
-        <section class="header2">
+        </div>    
+        <section class="personal">
             <div class="column-name">
                 <h1>Volha Filanovich</h1>
                 <h3>Junior Front-end Developer</h3>
             </div>
             <div class="contacts">
                 <h2 class="chapter">Contacts</h2>
-                <nav class="text-contacts">
-                    <p><img class="icon" src="images/mail.svg" alt="mail">
-                        <a href="mailto:volha.f@outllok.com" class="link">volha.f@outllok.com</a></p>
-                    <p><img class="icon" src="images/github.svg" alt="github">
-                        <a href="https://github.com/VolhaF" class="link">VolhaF</a></p>
-                    <p><img class="icon" src="images/maps.svg" alt="maps">Warszawa(Poland)</p>
-                </nav>
+                    <ul class="text-contacts">
+                        <li><img class="icon" src="images/mail.svg" alt="mail">
+                            <a href="mailto:volha.f@outllok.com" class="link">volha.f@outllok.com</a></li>
+                        <li><img class="icon" src="images/github.svg" alt="github">
+                            <a href="https://github.com/VolhaF" class="link">VolhaF</a></li>
+                        <li><img class="icon" src="images/maps.svg" alt="maps">Warszawa(Poland)</li>
+                    </ul>
             </div>
         </section>
     </header>
@@ -72,13 +70,31 @@
                 </ul>
             </section>
             <section class="code-example"> 
+                <h2 class="chapter">Code example</h2>
+                    <pre>
+                        <code>
+                            @keyframes color-change {
+                                0% {
+                                color: black;
+                                }
+                                50% {
+                                color: white;
+                                }
+                                100% {
+                                color: black;
+                                }
+                                .black-white {
+                                animation: color-change 
+                                3s infinite;
+                                }
+                        </code>
+                    </pre>
             </section>
             <section class="education">
                 <h2 class="chapter">Education</h2>
                 <ul class="text">
                     <li>
-                        <p>Brest State A. Pushkin University</p>
-                        <p>Jurisprudence (magistracy)</p>
+                        <p>Brest State A. Pushkin University -Jurisprudence (magistracy)</p>
                     </li>
                 </ul>
             </section>
