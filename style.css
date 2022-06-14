@@ -1,19 +1,33 @@
 
+@font-face {
+    font-family: Joan;
+     src: url("fonts/Joan-Regular.ttf");
+   }
 * {
     box-sizing: border-box;
 }
 body {
     display: flex;
+    width: 780px;
+    height: 100%;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(0deg, #b56f51 0%, #cc8d8d 40%, #ecc8a3 67%, #ffffff  93%);
+    font-family: 'Joan';
+    background: linear-gradient(0deg,  #d99d73 0%, #ecc8a3 50%, #ffffff  90%);
 }
+
 header {
     display: flex;
+    width: 780px;
+}
+.hearer2 {
+    padding-left: 20px;
 }
 .photo {
     width: 280px;
     height: 280px;
+
 }
 .photo > img{
     max-width: 100%;
@@ -22,30 +36,79 @@ header {
 .contacts {
     position: relative;
     padding-top: 20px;
-
+    width: 500px;
 }
 .text-contacts {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0;
+    transition: .3s;
+    color: #5e2d16;
 }
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color: #5e2d16;
+}
+.text {
+    color: #5e2d16;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #3e4e40;
+}
+h3 {
+    font-size: 18px;
+    color: #566b59;
+}
+
+
+
+
 main {
     display: flex;
     flex-direction: row;
+    /* margin-right: -30px; */
 }
 .left {
     display: flex;
     flex-direction: column;
     border-right: #000000 solid 1px;
+    width: 224px;
 }   
 .right {
         display: flex;
         flex-direction: column;
+        width: 555px;
+    }
+.chapter {
+    background-color: #c5847ad8;
+    font-size: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #3e4e40;
 }
+.icon {
+    width: 30px;
+    padding-right: 10px;
+}
+.link {
+    text-decoration: none;
+    color: #566b59;
+    transition: color 0.7s;
+  }
+  .link:hover {
+    color: #566b59;
+  }
 footer {
     display: flex;
     justify-content: space-around;
-    height: 50px;
+    height: 70px;
+    width: 780px;
     align-items: center;
     color: #000000;
     border-top:#000000 solid 1px;
