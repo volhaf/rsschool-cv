@@ -1,2 +1,2 @@
-https://VolhaF.github.io/rsschool-cv/cv
-https://VolhaF.github.io/rsschool-cv/
+<p>https://VolhaF.github.io/rsschool-cv/cv</p>
+<p>https://VolhaF.github.io/rsschool-cv/</p>
