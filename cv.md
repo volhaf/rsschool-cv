@@ -53,6 +53,11 @@ export function Counter ({}:CounterPropsType): any {
 ``` 
 
 ### Work Experience: 
+- Creating reusable components and custom hooks.
+- Working with the server and CRUD operations.
+- Pagination, search, filtering, and sorting: Implementation and optimization to enhance user experience and data management.
+- Refactoring code to eliminate duplication and fix bugs.
+- Collaborative development with Git, including branching, merging, and resolving conflicts.
 
 ### Education: 
 
