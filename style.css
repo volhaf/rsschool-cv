@@ -6,6 +6,21 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    transition: all .3s;
+    width: 100%;
+    min-height: 100%;
+    color: var(--color-primary);
+}
+
+:root {
+    --color-primary: rgb(246, 234, 233);
+    --color-secondary: rgb(96, 107, 132);
+    --color-accent: rgb(245, 159, 102);
+
+}
+
 
 /*footer*/
 .footer {
