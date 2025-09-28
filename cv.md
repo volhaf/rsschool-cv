@@ -6,7 +6,11 @@
 - [linkedin](www.linkedin.com/in/volha-filanovich-355a562b1)
 
 ### About Me:
-
+Front-end Developer with 1+ Year of experience in creating SPAs using TypeScript, React, and Redux. 
+Currently, I am deepening my knowledge of React to expand my skills. 
+In my free time, I read professional literature (such as Groking Algorithms) 
+and documentation, study English and Polish, and solve challenges on Codewars. 
+I am also passionate about photography.
 
 ### Skills:
 - HTML, HTML5
@@ -52,6 +56,16 @@ export function Counter ({}:CounterPropsType): any {
         }
 ``` 
 
+### Projects 
+- Tasks Manager (task tracking – in development
+- Boardgame 1
+- Game 2
+-  Project store "Plants" (layout)
+- Project "Coffee House" (layout)
+- Project "Travel Portal" (layout)
+- React CV project Styled Components
+- CV (cv for RS School) (layout)
+
 ### Work Experience: 
 - Creating reusable components and custom hooks.
 - Working with the server and CRUD operations.
@@ -60,5 +74,13 @@ export function Counter ({}:CounterPropsType): any {
 - Collaborative development with Git, including branching, merging, and resolving conflicts.
 
 ### Education: 
+- 2009 - 2016	(Brest State A. Pushkin University -Jurisprudence (magistracy))
+- 2022 - 2023	(RS School JavaScript/Front-end course)
+- 2024 – in process (It Incubator / Front-end course) 
 
 ### Language: 
+
+- Russian: Native
+- Belarusian: Native
+- Polish: B2
+- English - B1 (I study with a private teacher (a native speaker) 2–3 times a week)
