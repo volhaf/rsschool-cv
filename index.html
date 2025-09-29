@@ -1,17 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>cv</title>
 </head>
 <body>
-<div class="wrapper">
     <header class="header">
-            <div class="navigation">
+            <nav class="navigation">
                 <ul class="nav_list">
                     <li><a href="#about-anchor" class="nav_link">About Me</a></li>
                     <li><a href="#contacts-anchor" class="nav_link">Contacts</a></li>
@@ -21,7 +19,12 @@
                     <li><a href="#code-anchor" class="nav_link">Code Example</a></li>
                     <li><a href="#language-anchor" class="nav_link">Language</a></li>
                 </ul>
-            </div>
+                <div class="burger" id="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
     </header>
     <main class="main">
         <section class="profile">
@@ -31,11 +34,11 @@
                         alt="profile-image"
                         width="250"
                         class="profile_image-avatar"
-                />
+                >
             </div>
             <div class="profile_info">
                 <h1 class="profile_info-title">Volha Filanovich</h1>
-                <h3 class="profile_info-subtitle">Junior Front-end Developer</h3>
+                <h2 class="profile_info-subtitle">Junior Front-end Developer</h2>
             </div>
         </section>
         <section class="about" id="about-anchor">
@@ -87,7 +90,6 @@
                 <li class="skills_item">HTML5, CSS3, Sass/SCSS </li>
                 <li class="skills_item">JavaScript (ES6+), TypeScript </li>
                 <li class="skills_item">React, Redux (Toolkit)</li>
-                <li class="skills_item">Styled Components, Material UI </li>
                 <li class="skills_item">Styled Components, Material UI </li>
                 <li class="skills_item">Jest (unit testing), Browser DevTools </li>
                 <li class="skills_item">Git, GitHub, Webpack, Vite </li>
@@ -164,22 +166,22 @@
         </section>
         <section class="code" id="code-anchor">
             <h2 class="code_title">Code Example</h2>
-            <pre class="code">
-                <code>
-                export function Counter ({}:CounterPropsType): any {
-                    let [count, setCount] = useState(0);
+ <pre class="code">
+    <code>
+     export function Counter ({}:CounterPropsType): any {
+        let [count, setCount] = useState(0);
 
-                        const incClickHandler = () => {
-                             if (count <= 5) {
-                                return setCount(count + 1 );
-                        }}
-                        const resetClickHandler = () => {
-                            setCount(0)
-                        }
-                    return (...)
-                    )
-                }
-            </code>
+        const incClickHandler = () => {
+             if (count &lt;= 5) {
+              return setCount(count + 1 );
+         }}
+         const resetClickHandler = () => {
+               setCount(0)
+          }
+               return (...)
+        )
+        }
+    </code>
 </pre>
 
         </section>
@@ -197,16 +199,15 @@
 
         <a href="https://github.com/volhaf" target="_blank"
         ><img class="footer_icon" src="./assets/github.svg" alt="github"
-        /></a>
+        ></a>
         <a href="https://rs.school/courses/short-track" target="_blank">
             <img
                 class="footer-icon"
                 src="./assets/rsschool.svg"
-                alt="rsschool"/>
+                alt="rsschool">
         </a>
         <p class="footer_item">© 2025</p>
     </footer>
-</div>
 <script src="main.js"></script>
 </body>
 </html>
