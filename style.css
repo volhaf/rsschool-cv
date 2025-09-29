@@ -6,23 +6,67 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Joan;
+    src: url("fonts/Joan-Regular.ttf");
+}
+
 html {
     scroll-behavior: smooth;
     transition: all .3s;
     width: 100%;
     min-height: 100%;
 }
-.wrapper {
-   padding: 30px;
+body {
+    font-family: Joan;
 }
+
 :root {
     --color-primary: rgb(246, 234, 233);
     --color-secondary: rgb(96, 107, 132);
     --color-accent: rgb(245, 159, 102);
 
 }
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/*header*/
+.header {
+    background-color: var(--color-secondary);
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+}
+
+.nav_link {
+    display: block;
+    color: var(--color-primary);
+    transition: 0.3s;
+    padding: 20px;
+
+}
+
+.nav_link:hover,
+.nav_link:focus {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+}
 
 
+
+.burger {
+    display: none;
+}
 
 /*profile*/
 .profile {
