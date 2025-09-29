@@ -168,19 +168,23 @@
             <h2 class="code_title">Code Example</h2>
  <pre class="code">
     <code>
-     export function Counter ({}:CounterPropsType): any {
-        let [count, setCount] = useState(0);
+     export function Counter (&#123;&#125;: CounterPropsType): any &#123;
+    let [count, setCount] = useState(0);
 
-        const incClickHandler = () => {
-             if (count &lt;= 5) {
-              return setCount(count + 1 );
-         }}
-         const resetClickHandler = () => {
-               setCount(0)
-          }
-               return (...)
-        )
-        }
+    const incClickHandler = () =&gt; &#123;
+        if (count &lt;= 5) &#123;
+            return setCount(count + 1 );
+        &#125;
+    &#125;
+
+    const resetClickHandler = () =&gt; &#123;
+        setCount(0)
+    &#125;
+
+    return (
+        &lt;div&gt; &lt;/div&gt;
+    );
+&#125;
     </code>
 </pre>
         </section>
