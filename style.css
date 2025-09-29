@@ -24,7 +24,7 @@ body {
 
 :root {
     --color-primary: rgb(255, 255, 255);
-    --color-secondary: rgb(96, 107, 132);
+    --color-secondary: rgb(106, 99, 97);
     --color-accent: rgb(245, 159, 102);
 
 }
@@ -124,12 +124,7 @@ h1,h2, h3 {
 @media (max-width: 768px) {
  html {
      font-size: 14px;
- }
-/*    code {*/
-/*        font-size: 0.9em;*/
-/*        word-break: break-word;*/
-/*    }*/
-/*}*/
+ } }
 
 @media (max-width: 600px) {
     .nav_list {
