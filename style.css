@@ -17,9 +17,11 @@ html {
     width: 100%;
     min-height: 100%;
     font-size: 16px;
+    margin: 0;
 }
 body {
     font-family: Joan;
+    margin: 0;
 }
 
 :root {
@@ -62,11 +64,15 @@ h1,h2, h3 {
 /*header*/
 .header {
     background-color: var(--color-secondary);
+
 }
 
 .navigation {
     display: flex;
     justify-content: flex-end;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 .nav_list {
     display: flex;
@@ -109,6 +115,18 @@ h1,h2, h3 {
 
 }
 
+
+/*section*/
+
+
+.section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 /*footer*/
 .footer {
     display: flex;
